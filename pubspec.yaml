@@ -8,12 +8,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  image_picker: 0.1.1                                             # new
-  google_sign_in: 0.3.1                                           # new
-  firebase_analytics: 0.0.4                                       # new
-  firebase_auth: 0.1.1                                            # new
-  firebase_database: 0.0.12                                       # new
-  firebase_storage: 0.0.5                                         # new
+  firebase_analytics: 0.0.4                                        # new
+  firebase_auth: 0.1.1                                             # new
+  firebase_database: 0.0.12                                        # new
+  firebase_storage: 0.0.5 
+  image_picker: ^0.1.1                                             # new
+  google_sign_in: ^0.3.1                                           # new
+  flutter_svg: ^0.5.5+1                                            # new
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -29,9 +30,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/logo.png
-    - assets/login-screen-background.png
-    - assets/signup-screen-background.png
-
+    - assets/loginsignup_bg.png
+    - assets/svg/facebook.png
+    - assets/svg/google.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/.
 
